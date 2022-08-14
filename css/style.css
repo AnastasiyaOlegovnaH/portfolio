@@ -1,0 +1,42 @@
+﻿html{
+  box-sizing: border-box;
+}
+*,::after,
+*::before{
+  box-sizing: inherit;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  color: #000;
+  background-image: url(../images/header-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container { 
+  max-width: 1220px;
+  margin: 0 auto; 
+  padding: 0 10px; 
+}
+.header__inner {
+}
+.header__top {
+}
+.logo__img {
+}
+.logo {
+}
+.header__content {
+  text-align: center;
+}
+.title {
+  font-size: 55px;
+}
+.header__title {
+  font-size: 40px;
+}
