@@ -6,16 +6,14 @@
   box-sizing: inherit;
 }
 a{
-  text-decoration: none;
+  text-decoration: none; 
   color: inherit;
+  padding-left: 10px;
+  font-family:'Roboto Mono', monospace;
+  color: #fff;
 }
-.header {
-  color: #000;
-  background-image: url(../images/header-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Roboto Mono', monospace;
+body{
+  background-color: #f2f3f4;
 }
 
 .container { 
@@ -23,20 +21,133 @@ a{
   margin: 0 auto; 
   padding: 0 10px; 
 }
-.header__inner {
+.header {
+  color: #000;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
-.header__top {
+.title {
+  font-family:'Roboto Mono', monospace;
+  font-size: 55px;
+  text-align: center;
+  padding-bottom: 40px;
 }
-.logo__img {
-}
+
 .logo {
+  height: 30px;
+  margin-top: 30px;
 }
 .header__content {
   text-align: center;
-}
-.title {
-  font-size: 55px;
+  position:relative; 
+  top: 200px;
 }
 .header__title {
   font-size: 40px;
+}
+.header__inner {
+  padding-bottom: 20px;
+}
+.about {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family:'Roboto Mono', monospace;
+}
+.about__item {
+  text-align: center;
+}
+.about__img{
+  border-radius: 70%; 
+}
+.about__content-title {
+  padding-bottom: 30px;
+}
+.about__content-text {
+  padding-bottom: 30px;
+}
+.about__title{
+padding-bottom: 30px;
+}
+.container__skills{
+  width: 100%;
+  background-color: #ddd;
+}
+.skills {
+  font-family:'Roboto Mono', monospace; 
+  text-align: left; /* Выравнивание текста по правому краю */
+  padding-top: 10px; /* Добавить верхний отступ */
+  padding-left: 30px; /* Отступ внутренний от левого края */
+  padding-bottom: 10px; /* Добавить нижний отступ */
+  color: #fff; /* Белый цвет текста */
+}
+.skills p {
+  color: #000;
+}
+.html {
+  text-align: right;
+  width: 60%; 
+  background-color: #013220;
+} 
+.css {
+  text-align: right;
+  width: 50%; 
+  background-color: #013220;
+} 
+.js {
+  text-align: right;
+  width: 5%; 
+  background-color: #013220;
+} 
+.php {
+  text-align: right;
+  width: 1%; 
+  background-color: #013220;
+} 
+.portfolio {
+  font-family:'Roboto Mono', monospace;
+}
+.portfolio__title {
+  font-size: 55px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.portfolio__text {
+  font-size: 25px;
+  padding: 20px;
+}
+.portfolio__img{
+  padding-bottom: 30px;
+}
+
+.link {
+  padding: 6px 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #013220;
+  color: #fff;
+  transition: color .5s;
+}
+.link:hover {
+  background-color: #44344c;
+}
+.portfolio__description{
+  padding-bottom: 30px;
+}
+.footer{
+  background-color: #013220;
+}
+.footer__inner{
+  padding: 50px 0;
+}
+.footer__link{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 20px;
 }
